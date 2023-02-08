@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+h1, h2, h3{
+  color: #274C77;
+  font-family: Poppins;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+body {
+  background-color: white;
+  color: #8B8C89;
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+a {
+  font-family: Poppins;
+  color: #347eaf;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: black;
+  transition: 1.5s;
+}
+
+.container {
+  background-color: #E7ECEF;
+  border: 1px solid #E7ECEF;
+  border-radius: 1%;
+  box-shadow: 1px -1px 20px 0px #E7ECEF;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid whitesmoke;
+  margin: 30px;
+  border-radius: 2%;
+  box-shadow: 1px -1px 20px 0px lightgrey;
+}
+
+#img-circle {
+  border-radius: 50%;
+  box-shadow: 1px -1px 20px 0px lightgrey;
+}
+#img-circle:hover{
+  transform: rotate(360deg);
+  transition: all ease 1s;
+}
+
+#img-list {
+  border-radius: 50%;
+  box-shadow: 1px -1px 20px 0px lightgrey;
+  margin-left: -35px;
+  margin-bottom: -15px;
+  width: 25px;
+  height: 25px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fa-brands {
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
